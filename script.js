@@ -11,10 +11,13 @@ const techQuotes = [
     "Technology empowers us to do more, to learn more, and to be more. - Unknown"
   ];
 
-  let num = Math.floor(Math.random()*(techQuotes.length))
+ 
   
   let displaySpace = document.getElementById("section")
-  displaySpace.innerHTML = techQuotes[num]
   
-
+  
+function generate(){
+    let num = Math.floor(Math.random()*(techQuotes.length))
+    displaySpace.innerHTML = techQuotes[num]
+} 
   

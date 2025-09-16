@@ -25,3 +25,15 @@
     font-style: italic;
     text-align: center;
 }
+#button{
+    font-size: 1.5em;
+    margin-left: 45vw; 
+    background-color: grey;
+    color: black;
+    border-radius: 6px;
+}
+
+#button:hover{
+    background-color: rgb(151, 148, 148);
+    cursor: pointer;
+}
