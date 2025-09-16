@@ -4,7 +4,7 @@
 }
 
 .heading{
-    border: 1px green solid;
+    
     width: 100vw;
     margin:0px;
     box-sizing: border-box;
@@ -15,10 +15,13 @@
     justify-content: center;
 }
 
-.section{
-    border: 2px yellow solid;
+#section{
+    padding: 15px;
     margin: 5vh;
-    width: 90vw;
+    width: 70vw;
     height: 20vh;
     display: flex;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
 }
